@@ -30,7 +30,20 @@ async def menu(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 👨‍✈️ آموزش عملی"""
         )
+    elif text == "✈️ دوره مقدماتی UL-PPL":
+        await update.message.reply_text(
+            "دوره مقدماتی UL-PPL"
+        )
 
+    elif text == "🚁 دوره پیشرفته UL-CPL":
+        await update.message.reply_text(
+            "دوره پیشرفته UL-CPL"
+        )
+
+    elif text == "👨‍✈️ استاد خلبانی UL-IP":
+        await update.message.reply_text(
+            "استاد خلبانی UL-IP"
+        )
     elif text == "💰 شهریه":
         await update.message.reply_text(
             "برای اطلاع از شهریه لطفاً با آموزشگاه تماس بگیرید."
